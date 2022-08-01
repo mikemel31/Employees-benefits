@@ -1,5 +1,7 @@
 .App {
+  max-width: 800px;
   text-align: center;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 .App-logo {
@@ -35,4 +37,41 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.search_panel {
+  margin-top: 30px;
+  padding: 25px;
+  background-color: lightblue;
+  border-radius: 10px;
+  box-shadow: 15px 15px 30px rgba(0,0,0, .15);
+  color: black;
+}
+
+div .btn-group {
+  margin-top: 20px;
+  color: black;
+}
+
+.btn {
+  color: black;
+}
+
+
+.app-add-form {
+  margin-top: 30px;
+  padding: 25px;
+  background-color: lightblue;
+  border-radius: 10px;
+  box-shadow: 15px 15px 30px rgba(0,0,0, .15);
+  color: black;
+}
+
+.add-form {
+  margin-top: 20px;
+}
+
+.add-form input {
+  width: 350px;
+  margin-right: 20px;
 }

@@ -1,0 +1,19 @@
+div .info_panel {
+    text-align: start;
+  max-width: 1000px;
+  margin: 0 auto;
+  /* border: solid 1px grey; */
+  border-radius: 10px;
+  background: lightblue;
+  box-shadow: 15px 15px 30px rgba(0,0,0, .15);
+  color: black;
+  padding: 15px;
+}
+
+div h3, h4 {
+    margin-left: 20px;
+}
+
+div h3 {
+  text-align: center;
+}
